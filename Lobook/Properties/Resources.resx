@@ -127,4 +127,31 @@
   <data name="HesenovElsad" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images And Icons\HesenovElsad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="HaciNebiliTural1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images And Icons\HaciNebiliTural.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HesenovElsad1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images And Icons\HesenovElsad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IbrahimovHuseyn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images And Icons\IbrahimovHuseyn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KerimzadeKamran" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images And Icons\KerimzadeKamran.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MeherremliMurad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images And Icons\MeherremliMurad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MuradovKenan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images And Icons\MuradovKenan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NihatAkremi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images And Icons\NihatAkremi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShafiyevaLeyla" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images And Icons\ShafiyevaLeyla.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShamilzadeAli" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images And Icons\ShamilzadeAli.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

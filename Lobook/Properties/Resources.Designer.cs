@@ -83,9 +83,99 @@ namespace Logbook.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap HaciNebiliTural1 {
+            get {
+                object obj = ResourceManager.GetObject("HaciNebiliTural1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap HesenovElsad {
             get {
                 object obj = ResourceManager.GetObject("HesenovElsad", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HesenovElsad1 {
+            get {
+                object obj = ResourceManager.GetObject("HesenovElsad1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IbrahimovHuseyn {
+            get {
+                object obj = ResourceManager.GetObject("IbrahimovHuseyn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap KerimzadeKamran {
+            get {
+                object obj = ResourceManager.GetObject("KerimzadeKamran", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MeherremliMurad {
+            get {
+                object obj = ResourceManager.GetObject("MeherremliMurad", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MuradovKenan {
+            get {
+                object obj = ResourceManager.GetObject("MuradovKenan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NihatAkremi {
+            get {
+                object obj = ResourceManager.GetObject("NihatAkremi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ShafiyevaLeyla {
+            get {
+                object obj = ResourceManager.GetObject("ShafiyevaLeyla", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ShamilzadeAli {
+            get {
+                object obj = ResourceManager.GetObject("ShamilzadeAli", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
