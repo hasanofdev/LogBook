@@ -1,4 +1,5 @@
 using Logbook.Models;
+using Logbook.Views;
 
 namespace Logbook
 {
@@ -12,17 +13,15 @@ namespace Logbook
 
         private void MainView_Load(object sender, EventArgs e)
         {
-           
-        }
+            AllCrystallColumn.Text = _allcrystals.ToString();
+            StudentsView students = new StudentsView("3");
+            StudentsView students2 = new StudentsView("3");
+            
+            students2.Dock = DockStyle.Top;
+            students.Dock = DockStyle.Top;
 
-        private void myRadioButton1_Click(object sender, EventArgs e)
-        {
-            MyRadioButton? rb = sender as MyRadioButton;
-
-            if(rb!.Checked)
-                rb.Checked = false;
-            else
-                rb.Checked = true;
+            StudentsPanel.Controls.Add(students);
+            StudentsPanel.Controls.Add(students2);
         }
     }
 }
