@@ -243,15 +243,6 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.PhotoGb);
-            this.groupBox1.Controls.Add(this.CommentGb);
-            this.groupBox1.Controls.Add(this.NumGb);
-            this.groupBox1.Controls.Add(this.AllcrystallGb);
-            this.groupBox1.Controls.Add(this.ClassworkGb);
-            this.groupBox1.Controls.Add(this.TestGb);
-            this.groupBox1.Controls.Add(this.MarkAllGb);
-            this.groupBox1.Controls.Add(this.LastseenGb);
-            this.groupBox1.Controls.Add(this.FullNameGb);
             this.groupBox1.Location = new System.Drawing.Point(-7, 0);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(1279, 62);
@@ -263,6 +254,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.PhotoGb);
+            this.Controls.Add(this.CommentGb);
+            this.Controls.Add(this.NumGb);
+            this.Controls.Add(this.AllcrystallGb);
+            this.Controls.Add(this.ClassworkGb);
+            this.Controls.Add(this.TestGb);
+            this.Controls.Add(this.MarkAllGb);
+            this.Controls.Add(this.LastseenGb);
+            this.Controls.Add(this.FullNameGb);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Name = "StudentsView";
