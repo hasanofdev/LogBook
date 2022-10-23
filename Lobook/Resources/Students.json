@@ -7,86 +7,95 @@
     "TestScore": 0,
     "ClassworkScore": 0,
     "Crystals": 0,
-    "Comment": ""
+    "Comment": "",
+    "ImageName": "NihatAkremi"
   },
   {
     "Id": 2,
-    "FullName": "Ekremi Canbehan Nihat Celal",
+    "FullName": "Haci-nebili Tural Mahir",
     "LastSeen": "10.03.22",
     "Activity": 0,
     "TestScore": 0,
     "ClassworkScore": 0,
     "Crystals": 0,
-    "Comment": ""
+    "Comment": "",
+    "ImageName": "HaciNebiliTural"
   },
   {
     "Id": 3,
-    "FullName": "Ekremi Canbehan Nihat Celal",
+    "FullName": "Hesenov Elshad Salman",
     "LastSeen": "10.03.22",
     "Activity": 0,
     "TestScore": 0,
     "ClassworkScore": 0,
     "Crystals": 0,
-    "Comment": ""
+    "Comment": "",
+    "ImageName": "HesenovElsad"
   },
   {
     "Id": 4,
-    "FullName": "Ekremi Canbehan Nihat Celal",
+    "FullName": "Ibrahimov Huseyn Allahverdi",
     "LastSeen": "10.03.22",
     "Activity": 0,
     "TestScore": 0,
     "ClassworkScore": 0,
     "Crystals": 0,
-    "Comment": ""
+    "Comment": "",
+    "ImageName": "IbrahimovHuseyn"
   },
   {
     "Id": 5,
-    "FullName": "Ekremi Canbehan Nihat Celal",
+    "FullName": "Kerimzade Kamran Natiq",
     "LastSeen": "10.03.22",
     "Activity": 0,
     "TestScore": 0,
     "ClassworkScore": 0,
     "Crystals": 0,
-    "Comment": ""
+    "Comment": "",
+    "ImageName": "KerimzadeKamran"
   },
   {
     "Id": 6,
-    "FullName": "Ekremi Canbehan Nihat Celal",
+    "FullName": "Meherremli Murad Yusif",
     "LastSeen": "10.03.22",
     "Activity": 0,
     "TestScore": 0,
     "ClassworkScore": 0,
     "Crystals": 0,
-    "Comment": ""
+    "Comment": "",
+    "ImageName": "MeherremliMurad"
   },
   {
     "Id": 7,
-    "FullName": "Ekremi Canbehan Nihat Celal",
+    "FullName": "Muradov Kenan Xalid",
     "LastSeen": "10.03.22",
     "Activity": 0,
     "TestScore": 0,
     "ClassworkScore": 0,
     "Crystals": 0,
-    "Comment": ""
+    "Comment": "",
+    "ImageName": "MuradovKenan"
   },
   {
     "Id": 8,
-    "FullName": "Ekremi Canbehan Nihat Celal",
+    "FullName": "Shamilzade Ali Azer",
     "LastSeen": "10.03.22",
     "Activity": 0,
     "TestScore": 0,
     "ClassworkScore": 0,
     "Crystals": 0,
-    "Comment": ""
+    "Comment": "",
+    "ImageName": "ShamilzadeAli"
   },
   {
     "Id": 9,
-    "FullName": "Ekremi Canbehan Nihat Celal",
+    "FullName": "Shefiyeva Leyla Dursun",
     "LastSeen": "10.03.22",
     "Activity": 0,
     "TestScore": 0,
     "ClassworkScore": 0,
     "Crystals": 0,
-    "Comment": ""
+    "Comment": "",
+    "ImageName": "ShafiyevaLeyla"
   }
 ]

@@ -55,7 +55,6 @@ namespace Logbook
             this.LastseenColumn = new System.Windows.Forms.Label();
             this.FullNameGb = new System.Windows.Forms.GroupBox();
             this.FullNameColumn = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.StudentsPanel = new System.Windows.Forms.Panel();
             this.HeadGroupBox.SuspendLayout();
             this.CommentGb.SuspendLayout();
@@ -144,6 +143,7 @@ namespace Logbook
             this.AddMaterialBtn.TabIndex = 5;
             this.AddMaterialBtn.Text = "Add Material";
             this.AddMaterialBtn.UseVisualStyleBackColor = false;
+            this.AddMaterialBtn.Click += new System.EventHandler(this.AddMaterialBtn_Click);
             // 
             // label1
             // 
@@ -173,7 +173,7 @@ namespace Logbook
             // 
             // PhotoGb
             // 
-            this.PhotoGb.Location = new System.Drawing.Point(58, 139);
+            this.PhotoGb.Location = new System.Drawing.Point(58, 133);
             this.PhotoGb.Name = "PhotoGb";
             this.PhotoGb.Size = new System.Drawing.Size(71, 76);
             this.PhotoGb.TabIndex = 15;
@@ -182,7 +182,7 @@ namespace Logbook
             // CommentGb
             // 
             this.CommentGb.Controls.Add(this.CommentColumn);
-            this.CommentGb.Location = new System.Drawing.Point(1023, 139);
+            this.CommentGb.Location = new System.Drawing.Point(1023, 133);
             this.CommentGb.Name = "CommentGb";
             this.CommentGb.Size = new System.Drawing.Size(250, 76);
             this.CommentGb.TabIndex = 12;
@@ -199,9 +199,9 @@ namespace Logbook
             // 
             // NumGb
             // 
-            this.NumGb.Location = new System.Drawing.Point(1, 139);
+            this.NumGb.Location = new System.Drawing.Point(0, 133);
             this.NumGb.Name = "NumGb";
-            this.NumGb.Size = new System.Drawing.Size(58, 76);
+            this.NumGb.Size = new System.Drawing.Size(61, 76);
             this.NumGb.TabIndex = 14;
             this.NumGb.TabStop = false;
             // 
@@ -209,7 +209,7 @@ namespace Logbook
             // 
             this.AllcrystallGb.Controls.Add(this.pictureBox1);
             this.AllcrystallGb.Controls.Add(this.AllCrystallColumn);
-            this.AllcrystallGb.Location = new System.Drawing.Point(921, 139);
+            this.AllcrystallGb.Location = new System.Drawing.Point(921, 133);
             this.AllcrystallGb.Name = "AllcrystallGb";
             this.AllcrystallGb.Size = new System.Drawing.Size(104, 76);
             this.AllcrystallGb.TabIndex = 13;
@@ -237,7 +237,7 @@ namespace Logbook
             // ClassworkGb
             // 
             this.ClassworkGb.Controls.Add(this.ClassworkColumn);
-            this.ClassworkGb.Location = new System.Drawing.Point(820, 139);
+            this.ClassworkGb.Location = new System.Drawing.Point(820, 133);
             this.ClassworkGb.Name = "ClassworkGb";
             this.ClassworkGb.Size = new System.Drawing.Size(112, 76);
             this.ClassworkGb.TabIndex = 12;
@@ -255,7 +255,7 @@ namespace Logbook
             // TestGb
             // 
             this.TestGb.Controls.Add(this.TestColumn);
-            this.TestGb.Location = new System.Drawing.Point(736, 139);
+            this.TestGb.Location = new System.Drawing.Point(736, 133);
             this.TestGb.Name = "TestGb";
             this.TestGb.Size = new System.Drawing.Size(86, 76);
             this.TestGb.TabIndex = 11;
@@ -274,9 +274,9 @@ namespace Logbook
             // 
             this.MarkAllGb.Controls.Add(this.myRadioButton1);
             this.MarkAllGb.Controls.Add(this.MarkallColumn);
-            this.MarkAllGb.Location = new System.Drawing.Point(554, 139);
+            this.MarkAllGb.Location = new System.Drawing.Point(553, 133);
             this.MarkAllGb.Name = "MarkAllGb";
-            this.MarkAllGb.Size = new System.Drawing.Size(193, 76);
+            this.MarkAllGb.Size = new System.Drawing.Size(184, 76);
             this.MarkAllGb.TabIndex = 10;
             this.MarkAllGb.TabStop = false;
             // 
@@ -284,6 +284,7 @@ namespace Logbook
             // 
             this.myRadioButton1.AutoSize = true;
             this.myRadioButton1.CheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(205)))), ((int)(((byte)(105)))));
+            this.myRadioButton1.Enabled = false;
             this.myRadioButton1.Location = new System.Drawing.Point(84, 36);
             this.myRadioButton1.MinimumSize = new System.Drawing.Size(0, 21);
             this.myRadioButton1.Name = "myRadioButton1";
@@ -306,7 +307,7 @@ namespace Logbook
             // LastseenGb
             // 
             this.LastseenGb.Controls.Add(this.LastseenColumn);
-            this.LastseenGb.Location = new System.Drawing.Point(352, 139);
+            this.LastseenGb.Location = new System.Drawing.Point(352, 133);
             this.LastseenGb.Name = "LastseenGb";
             this.LastseenGb.Size = new System.Drawing.Size(206, 76);
             this.LastseenGb.TabIndex = 9;
@@ -324,9 +325,9 @@ namespace Logbook
             // FullNameGb
             // 
             this.FullNameGb.Controls.Add(this.FullNameColumn);
-            this.FullNameGb.Location = new System.Drawing.Point(127, 139);
+            this.FullNameGb.Location = new System.Drawing.Point(128, 133);
             this.FullNameGb.Name = "FullNameGb";
-            this.FullNameGb.Size = new System.Drawing.Size(228, 76);
+            this.FullNameGb.Size = new System.Drawing.Size(225, 76);
             this.FullNameGb.TabIndex = 8;
             this.FullNameGb.TabStop = false;
             // 
@@ -339,43 +340,35 @@ namespace Logbook
             this.FullNameColumn.TabIndex = 8;
             this.FullNameColumn.Text = "Student\'s Full Name";
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Location = new System.Drawing.Point(1, 139);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1272, 76);
-            this.groupBox1.TabIndex = 17;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
-            // 
             // StudentsPanel
             // 
+            this.StudentsPanel.AutoScroll = true;
             this.StudentsPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.StudentsPanel.Location = new System.Drawing.Point(0, 213);
+            this.StudentsPanel.Enabled = false;
+            this.StudentsPanel.Location = new System.Drawing.Point(0, 209);
             this.StudentsPanel.Name = "StudentsPanel";
-            this.StudentsPanel.Size = new System.Drawing.Size(1273, 322);
+            this.StudentsPanel.Size = new System.Drawing.Size(1273, 394);
             this.StudentsPanel.TabIndex = 18;
             // 
             // MainView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1273, 535);
+            this.ClientSize = new System.Drawing.Size(1273, 603);
+            this.Controls.Add(this.StudentsPanel);
+            this.Controls.Add(this.FullNameGb);
+            this.Controls.Add(this.MarkAllGb);
+            this.Controls.Add(this.LastseenGb);
             this.Controls.Add(this.PhotoGb);
-            this.Controls.Add(this.CommentGb);
             this.Controls.Add(this.NumGb);
+            this.Controls.Add(this.CommentGb);
             this.Controls.Add(this.AllcrystallGb);
             this.Controls.Add(this.ClassworkGb);
             this.Controls.Add(this.TestGb);
-            this.Controls.Add(this.MarkAllGb);
-            this.Controls.Add(this.LastseenGb);
-            this.Controls.Add(this.FullNameGb);
             this.Controls.Add(this.HeadGroupBox);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.StudentsPanel);
             this.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.MaximumSize = new System.Drawing.Size(1289, 574);
+            this.MaximumSize = new System.Drawing.Size(1289, 800);
             this.Name = "MainView";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Logbook";
@@ -415,7 +408,6 @@ namespace Logbook
         private Label MarkallColumn;
         private Label TestColumn;
         private Label ClassworkColumn;
-        private Label AllCrystallColumn;
         private Label CommentColumn;
         private GroupBox FullNameGb;
         private GroupBox LastseenGb;
@@ -426,9 +418,9 @@ namespace Logbook
         private GroupBox CommentGb;
         private GroupBox NumGb;
         private GroupBox PhotoGb;
-        private MyRadioButton myRadioButton1;
+        public MyRadioButton myRadioButton1;
         private PictureBox pictureBox1;
-        private GroupBox groupBox1;
         private Panel StudentsPanel;
+        public Label AllCrystallColumn;
     }
 }

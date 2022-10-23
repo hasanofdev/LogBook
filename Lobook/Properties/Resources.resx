@@ -118,40 +118,49 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="HaciNebiliTural" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images And Icons\HaciNebiliTural.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="comment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images And Icons\comment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="diamondactive" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images And Icons\diamondactive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="HesenovElsad" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images And Icons\HesenovElsad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images And Icons\save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="HaciNebiliTural1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="ShamilzadeAli" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images And Icons\ShamilzadeAli.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diamonddeactive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images And Icons\diamonddeactive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HaciNebiliTural" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images And Icons\HaciNebiliTural.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="HesenovElsad1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images And Icons\HesenovElsad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IbrahimovHuseyn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images And Icons\IbrahimovHuseyn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="KerimzadeKamran" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images And Icons\KerimzadeKamran.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MeherremliMurad" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images And Icons\MeherremliMurad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MuradovKenan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images And Icons\MuradovKenan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="NihatAkremi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images And Icons\NihatAkremi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ShafiyevaLeyla" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images And Icons\ShafiyevaLeyla.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ShamilzadeAli" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images And Icons\ShamilzadeAli.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="deletedeactive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images And Icons\deletedeactive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MeherremliMurad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images And Icons\MeherremliMurad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KerimzadeKamran" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images And Icons\KerimzadeKamran.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MuradovKenan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images And Icons\MuradovKenan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IbrahimovHuseyn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images And Icons\IbrahimovHuseyn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NihatAkremi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images And Icons\NihatAkremi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HesenovElsad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images And Icons\HesenovElsad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images And Icons\cancel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
